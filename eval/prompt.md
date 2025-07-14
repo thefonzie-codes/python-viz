@@ -1,1 +1,0 @@
-Based on the data provided, build a sales dashboard that shows our company's sales trends over a calendar year.  I want to be able to change the year and analyze YOY growth, total sales, and total profit for all the parent company's subsidiaries.  Add a map that visualizes sales overviews in each region so that I can analyze which brands are most successful in each region.
