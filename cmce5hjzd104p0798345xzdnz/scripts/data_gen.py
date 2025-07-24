@@ -12,7 +12,7 @@ def generate_regions(filename="../data/regions.csv"):
     df.to_csv(filename, index=False)
     print("regions.csv successfuly generated")
 
-def generate_employees(filename="../data/employees.csv"):
+def generate_employees(region, filename="../data/employees.csv"):
     first_names = ['John', 'Jane', 'Alex', 'Sarah', 'Mike', 'Emma', 'David', 'Lisa', 'Chris', 'Anna', 'Mark', 'Sofia', 'Ryan', 'Maya', 'Tom', 'Zoe', 'Ben', 'Aria', 'Sam', 'Nora']
     last_names = ['Smith', 'Johnson', 'Williams', 'Brown', 'Davis', 'Miller', 'Wilson', 'Moore', 'Taylor', 'Anderson', 'Thomas', 'Jackson', 'White', 'Harris', 'Martin', 'Garcia']
     countries = ["USA", "UK", "Germany", "India"]
